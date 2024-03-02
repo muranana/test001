@@ -17,7 +17,7 @@ module Scenes
     private
 
     def draw_score
-      Window.draw_font(500, 10, "SCORE: #{@score}", @score_font, color: C_YELLOW)
+      Window.draw_font(500, 10, "SCORE: #{@score}", @score_font, color: C_BLUE)
     end
 
     def stage_completed?
